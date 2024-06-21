@@ -1,0 +1,33 @@
+{
+  "platform": "youtube",
+  "services": {
+    "seguidores": [
+      {
+        "id": 1,
+        "service_name": "ID 455 - Suscriptores de YouTube MONETIABLES (20 POR DIA)",
+        "price_per_unit": 0.004638
+      }
+    ],
+    "likes": [
+      {
+        "id": 2,
+        "service_name": "ID 27 - Me gusta de YouTube 500.000/día",
+        "price_per_unit": 0.000587
+      }
+    ],
+    "vistas": [
+      {
+        "id": 3,
+        "service_name": "ID 1856 - Vistas de vídeos de YouTube monetizables (MINIMO 1000) ",
+        "price_per_unit": 0.002869
+      }
+    ],
+    "minutos": [
+      {
+        "id": 4,
+        "service_name": "ID 2311 - YouTube - Vistas - Fuente FB+TW+IG - 1 a 2 minutos de retencion - Max 1M - R30",
+        "price_per_unit": 0.002712
+      }
+    ]
+  }
+}
