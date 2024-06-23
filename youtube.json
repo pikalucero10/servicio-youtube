@@ -4,7 +4,7 @@
     "seguidores": [
       {
         "id": 1,
-        "service_name": "ID 455 - Suscriptores de YouTube MONETIABLES (20 POR DIA)",
+        "service_name": "ID 455 - Suscriptores de YouTube MONETIZABLES (20 POR DIA)",
         "price_per_unit": 0.004638
       }
     ],
@@ -18,12 +18,12 @@
     "vistas": [
       {
         "id": 3,
-        "service_name": "ID  - Vistas shorts  ",
-        "price_per_unit": 
+        "service_name": "ID 1234 - Vistas cortas",
+        "price_per_unit": 0.001234
       },
       {
-        "id": 3,
-        "service_name": "ID 1856 - Vistas de vídeos de YouTube monetizables Tiempo de visualización: 2 a 8 minutos  ",
+        "id": 4,
+        "service_name": "ID 1856 - Vistas de vídeos de YouTube monetizables Tiempo de visualización: 2 a 8 minutos",
         "price_per_unit": 0.002869
       }
     ]

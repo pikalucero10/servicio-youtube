@@ -40,11 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const services = combinedData.services[selectedType];
 
             services.forEach(service => {
-                const option = document.createElement('option');
-                option.value = service.id;
-                option.textContent = service.service_name;
-                option.dataset.price = service.price_per_unit;
-                serviceName.appendChild(option);
+                if (service.price_per_unit !== undefined) {
+                    const option = document.createElement('option');
+                    option.value = service.id;
+                    option.textContent = service.service_name;
+                    option.dataset.price = service.price_per_unit;
+                    serviceName.appendChild(option);
+                }
             });
         }
         updatePrice();
