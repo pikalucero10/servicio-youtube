@@ -37,6 +37,45 @@
             <p>Precio en dólares: Comprar a <span id="buyPriceUSD">0</span> - Vender a <span id="sellPriceUSD">0</span></p>
             <p>Cantidad ajustada: <span id="finalQuantity">0</span></p>
         </section>
+
+        <section id="comboServices" class="card">
+            <h2>Armar Combos</h2>
+            <label for="comboServiceType1">Selecciona el primer tipo de servicio:</label>
+            <select id="comboServiceType1">
+                <option value="seguidores">Seguidores</option>
+                <option value="likes">Likes</option>
+                <option value="vistas">Vistas</option>
+            </select>
+
+            <label for="comboServiceName1">Selecciona el primer servicio:</label>
+            <select id="comboServiceName1"></select>
+
+            <label for="comboQuantity1">Cantidad del primer servicio:</label>
+            <input type="number" id="comboQuantity1" value="1000">
+
+            <label for="comboServiceType2">Selecciona el segundo tipo de servicio:</label>
+            <select id="comboServiceType2">
+                <option value="seguidores">Seguidores</option>
+                <option value="likes">Likes</option>
+                <option value="vistas">Vistas</option>
+            </select>
+
+            <label for="comboServiceName2">Selecciona el segundo servicio:</label>
+            <select id="comboServiceName2"></select>
+
+            <label for="comboQuantity2">Cantidad del segundo servicio:</label>
+            <input type="number" id="comboQuantity2" value="1000">
+
+            <label for="comboProfitMargin">Margen de ganancia para el combo (%):</label>
+            <input type="number" id="comboProfitMargin" value="10">
+
+            <label for="comboDropPercentage">Caídas para el combo (%):</label>
+            <input type="number" id="comboDropPercentage" value="0">
+
+            <p>Precio total del combo: Comprar a <span id="comboBuyPrice">0</span> - Vender a <span id="comboSellPrice">0</span></p>
+            <p>Precio en dólares del combo: Comprar a <span id="comboBuyPriceUSD">0</span> - Vender a <span id="comboSellPriceUSD">0</span></p>
+            <p>Cantidad ajustada del combo: <span id="comboFinalQuantity">0</span></p>
+        </section>
     </main>
 
     <script src="scripts.js"></script>
